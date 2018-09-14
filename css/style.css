@@ -1,0 +1,109 @@
+.wrapper {
+	width: 1350px;
+	margin: 0px auto;
+}
+body {
+	font-family: roboto;
+}
+
+/*style top-header*/
+
+.top-header {
+	background-color: #252525;
+}
+.hotline {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	color: #fff;
+	padding: 8px 18px 7px 58px;
+}
+.top-header p {
+    border-right: 1px solid #333333;
+    padding-right: 14px;
+}
+.icon {
+	color: #fff;
+	padding: 9px 203px 2px 0px;
+}
+.icon a {
+	color: #fff;
+	padding-left: 7px;
+}
+.icon a:hover i.fa.fa-facebook-square{
+	color: #3786da;
+	transition: 0.3s;
+}
+.icon a:hover i.fa.fa-google-plus-square {
+	color: #f32c2c;
+	transition: 0.3s;
+}
+.search .search-content {
+	position: relative;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #8f8f8f;
+	padding: 8px 30px 2px 0px;
+}
+::placeholder {
+    color: #8f8f8f;
+    font-style: italic;
+    font-weight: 400;
+}
+.search button {
+	background: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    right: 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.user {
+	color: #fff;
+	padding: 8px 15px 5px 0px;
+}
+.user a {
+	color: #cccccc;
+	font-size: 14px;
+	border-right: 1px solid #333333;
+}
+.user a i.fa.fa-angle-down {
+	padding: 0px 5px 0px 5px;
+}
+
+/*Style header*/
+
+.header .logo {
+	font-size: 50px;
+    color: black;
+    font-weight: 600;
+    padding: 20px 0px 15px 20px;
+}
+.main-menu li {
+	float: left;
+}
+.main-menu li a {
+	display: block;
+	color: #414141;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 50px 20px 15px 20px;
+	font-weight: 500;
+}
+.main-menu li:hover a {
+	color: red;
+}
+.main-menu li a i.fa.fa-angle-down {
+	padding-left: 5px;
+}
+.main-menu li.active i.fa.fa-tags {
+    padding-right: 5px;
+}
+.main-menu li.active a{
+	color: red;
+}
