@@ -5,12 +5,6 @@
 body {
 	font-family: roboto;
 }
-
-.item-left span {
-    color:  red;
-    font-size: 16px;
-    line-height: 27px;
-}
 .wp-content {
 	background-color: #e6e6e6;
 }
@@ -46,6 +40,11 @@ body {
 .icon a:hover i.fa.fa-google-plus-square {
 	color: #f32c2c;
 	transition: 0.3s;
+}
+.item-left span {
+    color:  red;
+    font-size: 16px;
+    line-height: 27px;
 }
 .search .search-content {
 	position: relative;
@@ -262,8 +261,7 @@ body {
 /*style show-product*/
 
 .show-product {
-	margin: 0px 20px 5px 20px;
-	
+	margin: 0px 20px 5px 20px;	
 }
 .show-product .title{
 	background: #fff;
@@ -313,7 +311,13 @@ body {
 	width: 326px;
 	height: 546px;
 }
-
+.thumb-n img {
+	width: 100%;
+	height: auto;
+}
+.widget-new {
+	width: 325px;
+}
 /*end style thub-s*/
 .group-1, .show-product .item-left {
     border-right: 2px solid #e6e6e6;
@@ -363,7 +367,70 @@ body {
     text-decoration: line-through;
     color: #323232;
 }
-.item-left .more{
-		
-padding: 26px 0px 26px 19px;
+.item-left .more{		
+	padding: 26px 0px 26px 19px;
+}
+/*style product-new*/
+
+.product-new {
+	background: #fff;
+	margin: 5px 0px 20px 0px;
+}
+.widget-new {
+	padding: 18px 7px 60px 15px;
+}
+.widget-new h3 {
+    padding: 16px 4px 16px 0px;
+}
+.widget-new p {
+    font-size: 15px;
+    line-height: 19px;
+}
+.widget-banner a {
+	display: inline-block;
+    padding: 5px 6px 10px 0px;
+}
+.widget-banner a:nth-child(3) {
+	padding-right: 0px;
+}
+
+/*style footer*/
+
+.footer {
+	background: #e6e6e6;
+	color: #fff;
+}
+.wp-inner {
+	background: #2c2c2c;
+	margin: 10px 20px 30px 20px;
+}
+.widget-ft {
+    margin: 6px 28px 13px 10px;
+}
+.widget-ft .title h3 {
+	font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0px 20px 20px;
+}
+.widget-ft .content p {
+	font-size: 14px;
+    padding: 0px 0px 20px 20px;
+}
+.widget-ft #map {
+	padding: 0px 0px 20px 20px;
+}
+.widget-ft ul {
+	padding-left: 20px;
+}
+.widget-ft ul li a {
+	color: #fff;
+    padding-bottom: 10px;
+    display: block;
+}
+.widget-ft ul li:hover a {
+	color: #b1d0cc;
+	transition: 0.3s;
+}
+.widget-ft #fb {
+	padding: 20px 0px 20px 20px;
 }
