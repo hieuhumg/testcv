@@ -6,6 +6,15 @@ body {
 	font-family: roboto;
 }
 
+.item-left span {
+    color:  red;
+    font-size: 16px;
+    line-height: 27px;
+}
+.wp-content {
+	background-color: #e6e6e6;
+}
+
 /*style top-header*/
 
 .top-header {
@@ -106,4 +115,255 @@ body {
 }
 .main-menu li.active a{
 	color: red;
+}
+
+/*Style banner*/
+
+.banner {
+	background-image: url(../images/banner.jpg);
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+}
+.bn-content {
+	color: #fff;
+	width: 47%;
+	padding: 155px 0px 0px 80px;
+}
+.bn-content h3 {
+	font-size: 45px;
+	font-weight: 400;
+	padding-bottom: 25px
+}
+.bn-content p {
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	font-weight: 300;
+}
+.bn-content button {
+	font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: #aa0038;	
+}
+
+/*style wp-content*/
+
+.banner-menu .item{
+	width: 424px;
+    padding: 23px 75px;
+    border: 2px solid black;
+    margin: 10px 0px 30px 20px;
+}
+.banner-menu .item a {
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.widget-product {
+	background-color: #fff;
+	margin: 0px 20px 0px 20px;
+}
+.widget-title {
+	width: 100%;
+	border-bottom: 2px solid #aa0038;
+}
+.widget-product .widget-title-1 {
+	border-bottom: 50px solid #aa0038;
+    border-left: 0px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 280px;
+}
+.widget-product .widget-title-2 {
+	border-bottom: 50px solid #fff;
+    border-left: 0px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 280px;
+}
+.widget-product p {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-top: 18px;
+}  
+.widget-product .widget-title-1 p {
+	color: #fff;
+	font-size: 20px;
+}
+.widget-title-2 p {
+ 	color: #aa0038;
+ 	font-size: 20px;
+ 	padding-left: 10px;
+ }
+ /*style wp-product*/
+ .wp-product {
+ 	border: 1px solid #aa0038;
+ 	padding: 10px 0px 10px 0px;
+ }
+.thumb img {
+ 	width: 100%;
+ 	height: 160px;
+}
+
+.widget-product .list-product {
+    width: 250px;
+    margin: 0px 14px 0px 0px;
+}
+.widget-product .wp-product .list-product:nth-child(5) {
+    margin-right: 0px;
+}
+.list-product .title a {
+	font-size: 14px;
+	color: #323232;
+	padding: 10px 0px 10px 30px;
+	display: block;
+	font-weight: 500;
+}
+.list-product p {
+	font-size: 16px;
+	color: red;
+	font-weight: 500;
+	padding: 0px 0px 0px 30px;
+}
+.slider {
+	margin: 14px 20px 7px 20px;
+}
+/*style owl-carousel*/
+.owl-theme .owl-nav {
+    position: relative;
+    bottom: 140px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: -24px;
+    font-size: 60px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -24px;
+    font-size: 60px;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.owl-theme .owl-dots .owl-dot {
+	display: none !important; 
+}
+
+/*style show-product*/
+
+.show-product {
+	margin: 0px 20px 5px 20px;
+	
+}
+.show-product .title{
+	background: #fff;
+	width: 100%;
+	border-top: 1px solid #aa0038;
+}
+.show-product .title h3 {
+	float: left;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 15px 200px 15px 15px;
+}
+.show-product .title a {
+	float: right;
+    font-size: 13px;
+    color: #8a8a8a;
+    padding: 18px 5px;
+
+}
+.show-product .title:hover a {
+	color: red;
+}
+.widget-sound, .widget-sound-1 {
+	background: #fff;
+	margin: 5px 0px 15px 0px;
+}
+/*style thumb-s img*/
+.thumb-s img {
+	width: 100%;
+	height: 200px;
+}
+.show-product .item {
+	width: 326px;
+}
+.thumb-s-center img {
+	width: 100%;
+	height: 467px;
+}
+.show-product .item-center {
+	width: 650px;
+}
+.thumb-s-left img {
+	width: 100%;
+	height: 346px;
+}
+.show-product .item-left {
+	width: 326px;
+	height: 546px;
+}
+
+/*end style thub-s*/
+.group-1, .show-product .item-left {
+    border-right: 2px solid #e6e6e6;
+}
+.group-2 {
+    border-left: 2px solid #e6e6e6;
+}
+.group-1 .item, .group-2 .item, .item-center {
+	border-bottom: 2px solid #e6e6e6;
+}
+.item .name {
+    font-size: 14px;
+    padding: 5px 0px 10px 15px;
+    font-weight: 500;
+}
+.item .price, .item-center .price {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-bottom: 23px;
+}
+ .item span {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #323232;
+}
+.item-center .name, .item-left .name {
+	font-size: 20px;
+    padding: 5px 0px 10px 15px;
+    font-weight: 500;
+}
+.widget-sound .item-center .price, {
+	font-size: 30px;
+	font-weight: 500;
+	color: red;
+}
+.item-left .price {
+	font-size: 30px;
+	font-weight: 500;
+	color: red;
+	padding-left: 20px;
+}
+.widget-sound .item-center span {
+	font-size: 16px;
+    text-decoration: line-through;
+    color: #323232;
+}
+.item-left .more{
+		
+padding: 26px 0px 26px 19px;
 }
