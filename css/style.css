@@ -151,18 +151,60 @@ body {
 }
 
 /*style wp-content*/
-
+.item .color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #aa0038;
+    opacity: 0;
+    transition: 0.2s;
+    z-index: 1;
+}
+.item:hover .color {
+    opacity: 1;
+}
+.item .square {
+    width: 97%;
+    height: 82%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    opacity: 0;
+    transform: scale(0);
+    border: 1px solid #fff;
+    z-index: 2;
+}
+.item:hover .square {
+    opacity: 1;
+    transform: scale(1);
+}
 .banner-menu .item{
 	width: 424px;
+	height: 69px;
     padding: 23px 75px;
     border: 2px solid black;
     margin: 10px 0px 30px 20px;
+    position: relative;
+    cursor: pointer;
 }
 .banner-menu .item a {
 	color: black;
-	font-size: 20px;
-	font-weight: 500;
-	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    z-index: 3;
+    transition: 0.2s;
+}
+.item:hover a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    color: #fff;
 }
 .widget-product {
 	background-color: #fff;
